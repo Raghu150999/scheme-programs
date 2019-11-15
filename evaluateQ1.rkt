@@ -1,0 +1,6 @@
+(require racket/trace)
+(include "q1.rkt")
+(trace sumUpRecursive)
+(trace sumUpTailRecursion)
+(sumUpRecursive '(1 2 3 5))
+(sumUpTailRecursion '(1 2 3 5) 0)
